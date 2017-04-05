@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jiechic.library.android.widget.MultiStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yushilei.im.ui.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/activity_sign_in_psw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/sign_in_input_shape"
+            android:cursorVisible="false"
+            android:hint="输入密码"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/activity_sign_in_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/activity_sign_in_psw"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/sign_in_input_shape"
+            android:cursorVisible="false"
+            android:hint="输入用户名"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/activity_sign_in_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_sign_in_psw"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/sign_in_input_shape"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="登录" />
+
+        <TextView
+            android:id="@+id/activity_sign_in_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activity_sign_in_login"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:background="@drawable/sign_in_input_shape"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:text="注册" />
+    </RelativeLayout>
+
+
+</com.jiechic.library.android.widget.MultiStateView>

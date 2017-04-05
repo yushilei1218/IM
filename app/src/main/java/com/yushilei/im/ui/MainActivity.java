@@ -1,7 +1,9 @@
-package com.yushilei.im;
+package com.yushilei.im.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.yushilei.im.R;
 
 public class MainActivity extends AppCompatActivity {
 
